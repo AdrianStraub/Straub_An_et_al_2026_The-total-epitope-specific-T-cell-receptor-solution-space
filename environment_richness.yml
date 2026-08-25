@@ -1,0 +1,26 @@
+# Conda/mamba environment for the TCR richness analysis
+#
+#
+
+name: tcrsat-richness
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.8
+  # --- R stack (called from Python via rpy2 in the iNEXT cell) ---
+  - r-base=4.3.3
+  - r-inext=3.0.2        # linux only; on macOS install from source (see notebook cell 2)
+  - r-remotes            # for version-pinned iNEXT install fallback
+  - rpy2=3.5.11
+  # --- Python scientific stack ---
+  - numpy=1.26.4
+  - pandas=2.3.3
+  - scipy=1.16.3
+  - seaborn=0.13.2
+  - matplotlib=3.10.8
+  - tqdm=4.67.3
+  - ipykernel            # so VS Code/Jupyter can see this env as a kernel
+  - pip
+  - pip:
+      - logomaker==0.8.7
+      - rapidfuzz==3.14.3
