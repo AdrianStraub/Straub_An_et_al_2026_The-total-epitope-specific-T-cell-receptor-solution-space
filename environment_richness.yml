@@ -24,3 +24,4 @@ dependencies:
   - pip:
       - logomaker==0.8.7
       - rapidfuzz==3.14.3
+      - openpyxl
