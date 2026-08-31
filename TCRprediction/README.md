@@ -16,8 +16,9 @@ pip install -r requirements.txt
 ```
 
 ## Reproduce results
-- Download the preprocessed supplementary data and extract to `./data`
-- Download models from [zenodo](XXX) and extract to `./saved_models`
+- NOTE: Data and saved models will be published with the accepted manuscript. For now, if you have received a copy of the submitted manuscript, please use the preview access link in that manuscript.
+- Download the preprocessed supplementary data and saved models from TBA.
+- Extract and move the data to `./data` and saved models to`./saved_models`
 - Reproducing the Performance metrics, figures, and binding values with notebook 01, 02 and 03, respectively in `./analysis`
 
 ## Training
