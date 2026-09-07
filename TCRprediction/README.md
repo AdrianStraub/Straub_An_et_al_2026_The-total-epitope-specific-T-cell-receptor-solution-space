@@ -71,4 +71,4 @@ If you would like to train it on your own data, please follow the dataframe form
 
 ### 4. Demo
 
-A demonstration notebook on how to train and evaluate your own model is contained in  `analysis/04_demo.ipynb` using 100 sample TCRs provided alongside the repo. Note, that performance will be only limited due to limited amount of data and no hyperparamter optimization.
+A demonstration notebook on how to train and evaluate your own model is contained in  `analysis/04_demo.ipynb` using 100 sample TCRs provided alongside the repo. Note, that performance will be only limited due to limited amount of data and no hyperparamter optimization. The expected run-time of the demo on a GPU-node is approx. 10 minutes.
