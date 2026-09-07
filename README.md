@@ -16,7 +16,7 @@ The TCR datasets are part of this submission and are not yet publicly released.
 Reviewers and editors can access them through the supplementary material of the
 submitted manuscript (Supplementary Tables 2-5). Download the supplementary
 tables and extract them into `tcr_data/` directory at the root of this
-repository, keeping the original file names:
+repository.
 
 The IMGT and Cell Ranger reference files the notebooks use are already included
 in `10X_mouse_vdj/`.
