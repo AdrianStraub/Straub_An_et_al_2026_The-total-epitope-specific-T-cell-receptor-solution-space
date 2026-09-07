@@ -68,3 +68,7 @@ and split individually for 48h.
 ```
 
 If you would like to train it on your own data, please follow the dataframe format described in `1. Data`.
+
+### 4. Demo
+
+A demonstration notebook on how to train and evaluate your own model is contained in  `analysis/04_demo.ipynb` using 100 sample TCRs provided alongside the repo. Note, that performance will be only limited due to limited amount of data and no hyperparamter optimization.
